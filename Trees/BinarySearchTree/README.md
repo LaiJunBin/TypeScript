@@ -24,9 +24,9 @@
 |traversal|輸出前/中/後序與廣度優先搜尋結果||void|
 |getMinNode|取得資料最小的節點||any|
 |getMaxNode|取得資料最大的節點||any|
-|removeNode|刪除節點(根節點以外)||void|
+|removeNode|刪除節點(根節點以外)|any|void|
 |removeRoot|刪除根節點||Root|
-|searchNode|尋找節點||if exists,Root or Node else null|
+|searchNode|尋找節點|any|if exists,Root or Node else null|
 |getHeight|取得樹高||number|
 |isRoot|判斷當前節點是否為根節點||boolean|
 |getRoot|取得根節點(僅Node擁有此方法)||Root|
